@@ -1,0 +1,120 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/Sea Power/Sea Power_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/Sea Power/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.67f1 (78a1c2bbeb6a)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/Sea Power/Sea Power_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Compatibility Mode (ID=0x66af)
+    Vendor:   ATI
+    VRAM:     53084 MB
+    Driver:   65535.65535.65535.65535
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.240 seconds
+- Finished resetting the current domain, in  0.004 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Dedicated video D3D11 device multithread protection failed (error: 0x80004002). Will use software video decoding.
+[Message:   BepInEx] BepInEx 5.4.23.5 - Sea Power (02.10.2026 16:56:44)
+[Info   :   BepInEx] Running under Unity v6000.0.67.7905730
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [Sea Power File Exists Fix 2.0.0]
+[Info   :Sea Power File Exists Fix] Verifying File.Exists under 'C:/Program Files (x86)/Steam/steamapps/common/Sea Power/Sea Power_Data/StreamingAssets/': True
+[Message:   BepInEx] Chainloader startup complete
+Sentry: Mapped native library to 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\sentry.dll'.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[3D WebView] Using Vuplex 3D WebView for Windows v4.15.2 
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+UnloadTime: 12.504100 ms
+[3D WebView] System info (used by Vuplex support):
+Unity version: 6000.0.67f1
+Development build: False
+OS version: Windows 10  (10.0.19045) 64bit
+Device model: Mac16,9 (Apple Inc.)
+Graphics API: Direct3D11
+Rendering threading mode: LegacyJobified
+Render pipeline: default
+SRP Batcher: False
+0.8.5-261008 (C) Triassic Games 2024-2026
+Global logging level set to: <b>Info</b>
+Noesis logging level set to: <b>Trace</b>
+FileManager.CheckFileValidity(): Game passed file validity checks!
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\land_units\port_diu.ini' on thread 7 (1 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\aircraft\pla_j-5.ini' on thread 9 (4 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\aircraft\wp_su-24a.ini' on thread 5 (3 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\land_units\nato_fps-6_radar.ini' on thread 10 (5 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\aircraft\civ_707.ini' on thread 8 (2 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\vessels\rn_dd_c-class.ini' on thread 19 (1000 so far)
+[Warning:Sea Power File Exists Fix] Rejected false File.Exists for 'C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\animations\animations_rn_ssn_valiant.ini' on thread 21 (2000 so far)
+WindowsVideoMedia error 0x80004002 while reading C:/Program Files (x86)/Steam/steamapps/common/Sea Power/Sea Power_Data/sharedassets1.resource
+
+Context: Querying IUnknown interface on D3D11 device.
+Error details: <Empty>
+Track types:
+First video frame not zero: 1 (0.016667s). Result may be out of sync. Please make sure tracks all start at 0 in C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\sharedassets1.resource
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. C:\Program Files (x86)\Steam\steamapps\common\Sea Power\Sea Power_Data\sharedassets1.resource
+[2101 - HTTPRequestCompleted] - 15 -- 1 -- True -- k_EHTTPStatusCode200OK -- 3797
+Global logging level set to: <b>Info</b>
+Noesis logging level set to: <b>Trace</b>
+Initialization Warning: Pool 'Effects' contains a PrefabPool with no prefab reference. Skipping.
+Initialization Warning: Pool 'Effects' contains a PrefabPool with no prefab reference. Skipping.
+Added pool 'Effects'
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 1038 unused Assets to reduce memory usage. Loaded Objects now: 43412.
+Total: 93.712800 ms (FindLiveObjects: 7.470500 ms CreateObjectMapping: 1.073900 ms MarkObjects: 83.376900 ms  DeleteObjects: 1.787800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43425.
+Total: 41.134100 ms (FindLiveObjects: 1.885000 ms CreateObjectMapping: 0.370300 ms MarkObjects: 38.842300 ms  DeleteObjects: 0.034100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43430.
+Total: 37.382200 ms (FindLiveObjects: 1.412000 ms CreateObjectMapping: 0.556600 ms MarkObjects: 35.396200 ms  DeleteObjects: 0.016000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43436.
+Total: 37.254500 ms (FindLiveObjects: 0.936600 ms CreateObjectMapping: 0.381700 ms MarkObjects: 35.915400 ms  DeleteObjects: 0.019600 ms)
+
+SeaPower.LinearCampaign.InstanceExists() = False
+[3D WebView] [StandaloneWebView.TerminateBrowserProcess] Terminating the browser process.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 1344 unused Assets to reduce memory usage. Loaded Objects now: 14228.
+Total: 86.673400 ms (FindLiveObjects: 2.474800 ms CreateObjectMapping: 0.692700 ms MarkObjects: 71.583400 ms  DeleteObjects: 11.921100 ms)
+
+WindowsVideoMedia error 0x80004002 while reading C:/Program Files (x86)/Steam/steamapps/common/Sea Power/Sea Power_Data/sharedassets1.resource
+
+Context: Querying IUnknown interface on D3D11 device.
+Error details: <Empty>
+Track types:
+[Info   :Sea Power File Exists Fix] Rejected 2697 false File.Exists answers this session.
+[3D WebView] [StandaloneWebView.TerminateBrowserProcess] Terminating the browser process.
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
