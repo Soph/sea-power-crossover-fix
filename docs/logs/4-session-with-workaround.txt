@@ -1,0 +1,55 @@
+# Sea Power 0.8.5 under CrossOver with the File.Exists workaround plugin: no user-path errors, no empty units
+# Source: Sea Power_Data/Logs/2026-10-13_session_7.html (HTML converted to text, excerpt)
+
+## Session start
+  [13-10-2026 16:02:44.106]  Logging started  
+  [13-10-2026 16:02:44.108]  Sea Power v0.8.5-261008  
+  [13-10-2026 16:02:44.109]  Operating System: Windows Windows 10  (10.0.19045) 64bit  
+  [13-10-2026 16:02:44.110]  Device: Desktop Mac16,9 (Apple Inc.)  
+  [13-10-2026 16:02:44.110]  Processor: VirtualApple @ 2.50GHz (16x 1.0GHz)  
+  [13-10-2026 16:02:44.115]  Memory: 64.0GB  
+  [13-10-2026 16:02:44.116]  Graphic Device: AMD Compatibility Mode (Direct3D11)  
+  [13-10-2026 16:02:44.116]  Graphic Memory: 51.8GB  
+  [13-10-2026 16:02:44.118]  [Unity] INFO: Global logging level set to:  Info  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 16:02:44.127]  [Unity] INFO: Noesis logging level set to:  Trace  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 16:02:44.130]  [General] INFO: Entering Game...  in BackgroundSceneController.cs: Awake (line 34)  
+  [13-10-2026 16:02:44.817]  [Analytics] HIGHLIGHT:  Setting Send Analytics to True  in OptionsManager.cs: SendAnalytics (line 121)  
+  [13-10-2026 16:02:45.453]  [General] INFO: Console attached to logging process.  in ConsoleView.xaml.cs: .ctor (line 85)  
+  [13-10-2026 16:02:46.185]  [Unity] INFO: FileManager.CheckFileValidity(): Game passed file validity checks!  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 16:02:46.283]  [General] INFO: Game passed mod compatibility checks!  in FileManager.cs: CheckCompatibility (line 1136)  
+  [13-10-2026 16:02:49.018]  [General] INFO: Loaded sensor metadata in 57ms!  in UnitMetadataProvider.cs: OnStart (line 348)  
+  [13-10-2026 16:02:51.435]  [General] WARNING: Empty onboardAmmo for Ammunition in 'WeaponSystem7Late' of 'ran_ss_oberon'  in ObjectBaseLoader.cs: ReadAmmunitionId (line 1872)  
+  [13-10-2026 16:02:55.671]  [General] WARNING: Empty onboardAmmo for Ammunition in 'WeaponSystem8Late' of 'ran_ss_oberon'  in ObjectBaseLoader.cs: ReadAmmunitionId (line 1872)  
+  [13-10-2026 16:02:55.672]  [General] WARNING: Empty onboardAmmo for Ammunition in 'WeaponSystem7Late' of 'rcn_ss_oberon'  in ObjectBaseLoader.cs: ReadAmmunitionId (line 1872)  
+  [13-10-2026 16:02:55.672]  [General] WARNING: Empty onboardAmmo for Ammunition in 'WeaponSystem8Late' of 'rcn_ss_oberon'  in ObjectBaseLoader.cs: ReadAmmunitionId (line 1872)  
+
+## First 40 ERROR lines
+  [13-10-2026 16:05:07.071]  [General] ERROR: missing ini file : /aircraft/raf_scout_ah1_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.072]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-33. The stationed vehicle raf_scout_ah1 has no raf_scout_ah1_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:07.072]  [General] ERROR: missing ini file : /aircraft/rn_wasp_has1_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.072]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-33. The stationed vehicle rn_wasp_has1 has no rn_wasp_has1_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:07.072]  [General] ERROR: missing ini file : /aircraft/rn_lynx_has2_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.073]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-33. The stationed vehicle rn_lynx_has2 has no rn_lynx_has2_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: missing ini file : /aircraft/raf_scout_ah1_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-37. The stationed vehicle raf_scout_ah1 has no raf_scout_ah1_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: missing ini file : /aircraft/rn_wasp_has1_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-37. The stationed vehicle rn_wasp_has1 has no rn_wasp_has1_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: missing ini file : /aircraft/rn_lynx_has2_squadrons.ini NumFiles: 2270  in IniHandler.cs: open (line 462)  
+  [13-10-2026 16:05:07.541]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-37. The stationed vehicle rn_lynx_has2 has no rn_lynx_has2_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line 1167)  
+  [13-10-2026 16:05:15.483]  [General] ERROR: Loading Plotting Table has encountered an error: 'System.ArgumentException: Cannot find Type null for type hash 12966315844862871446. Ensure your runtime depends on all assemblies defining the Component types your data uses.
+
+## ERROR summary (counts by message, numbers replaced by N)
+   2   [N-N-N N:N:N.N]  [General] ERROR: missing ini file : /aircraft/rn_wasp_hasN_squadrons.ini NumFiles: N  in IniHandler.cs: open (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: missing ini file : /aircraft/rn_lynx_hasN_squadrons.ini NumFiles: N  in IniHandler.cs: open (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: missing ini file : /aircraft/raf_scout_ahN_squadrons.ini NumFiles: N  in IniHandler.cs: open (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Loading Plotting Table has encountered an error: 'System.ArgumentException: Cannot find Type null for type hash N. Ensure your runtime depends on all assemblies defining the Component 
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-N. The stationed vehicle rn_wasp_hasN has no rn_wasp_hasN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-N. The stationed vehicle rn_lynx_hasN has no rn_lynx_hasN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Fox CG-N. The stationed vehicle raf_scout_ahN has no raf_scout_ahN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-N. The stationed vehicle rn_wasp_hasN has no rn_wasp_hasN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-N. The stationed vehicle rn_lynx_hasN has no rn_lynx_hasN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Failure in loading Flight Deck data for Crommelin FFG-N. The stationed vehicle raf_scout_ahN has no raf_scout_ahN_squadrons.ini file  in FlightDeck.cs: LoadAircraftData (line N)  
+
+## Totals
+Errors with paths under StreamingAssets\user: 0
+'Unknown or missing unit role' errors: 0

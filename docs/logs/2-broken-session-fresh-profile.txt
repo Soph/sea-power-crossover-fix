@@ -1,0 +1,97 @@
+# Sea Power 0.8.5 under CrossOver, fresh profile (LocalLow folder and StreamingAssets/user renamed), no plugin
+# Source: Sea Power_Data/Logs/2026-10-13_session_3.html (HTML converted to text, excerpt)
+
+## Session start
+  [13-10-2026 15:34:51.885]  Logging started  
+  [13-10-2026 15:34:51.886]  Sea Power v0.8.5-261008  
+  [13-10-2026 15:34:51.887]  Operating System: Windows Windows 10  (10.0.19045) 64bit  
+  [13-10-2026 15:34:51.887]  Device: Desktop Mac16,9 (Apple Inc.)  
+  [13-10-2026 15:34:51.888]  Processor: VirtualApple @ 2.50GHz (16x 1.0GHz)  
+  [13-10-2026 15:34:51.889]  Memory: 64.0GB  
+  [13-10-2026 15:34:51.889]  Graphic Device: AMD Compatibility Mode (Direct3D11)  
+  [13-10-2026 15:34:51.890]  Graphic Memory: 51.8GB  
+  [13-10-2026 15:34:51.893]  [Unity] INFO: Global logging level set to:  Info  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 15:34:51.902]  [Unity] INFO: Noesis logging level set to:  Trace  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 15:34:52.681]  [General] INFO: Initializing MainGameView...  in MainGameView.xaml.cs: .ctor (line 58)  
+  [13-10-2026 15:34:52.708]  [Unity] WARNING: Initialization Warning: Pool 'Effects' contains a PrefabPool with no prefab reference. Skipping.  in UnityLog.cs: HandleUnityLog (line 60)  
+  [13-10-2026 15:34:52.709]  [Unity] WARNING: Initialization Warning: Pool 'Effects' contains a PrefabPool with no prefab reference. Skipping.  in UnityLog.cs: HandleUnityLog (line 60)  
+  [13-10-2026 15:34:52.722]  [Unity] INFO: Added pool 'Effects'  in UnityLog.cs: HandleUnityLog (line 65)  
+  [13-10-2026 15:34:52.723]  [Unity] WARNING: DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.  in UnityLog.cs: HandleUnityLog (line 60)  
+  [13-10-2026 15:34:52.772]  [General] INFO: Entering Game Initializer...  in GameInitializer.cs: init (line 19)  
+  [13-10-2026 15:34:52.778]  [General] WARNING: Requesting Terrain Satelite data update but its camera is not available!  in TerrainSatelite.cs: RequestTerrainDataUpdate (line 158)  
+  [13-10-2026 15:34:52.801]  [Analytics] HIGHLIGHT:  Setting Send Analytics to False  in OptionsManager.cs: SendAnalytics (line 121)  
+  [13-10-2026 15:34:52.804]  [General] INFO: Setting Autogen Quality to 2 from config.ini, Autogen City Enabled: True.  in BaseAutogenSystem.cs: ApplyOptions (line 983)  
+  [13-10-2026 15:34:52.806]  [General] INFO: Setting Autogen Quality to 2 from config.ini, Autogen City Enabled: True.  in BaseAutogenSystem.cs: ApplyOptions (line 983)  
+
+## First 40 ERROR lines
+  [13-10-2026 15:34:52.884]  [General] ERROR: Could not load clouds distribution texture 'UNDEFINED' in clouds.ini  in CloudParameters.cs: .ctor (line 54)  
+  [13-10-2026 15:34:52.886]  [General] ERROR: Could not load clouds shadow texture 'UNDEFINED' in clouds.ini  in CloudParameters.cs: .ctor (line 58)  
+  [13-10-2026 15:34:55.555]  [General] ERROR: wp_silkworm_launcher: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.556]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type wp_silkworm_launcher  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.561]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.605]  [General] ERROR: usn_cg_belknap: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.606]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_cg_belknap  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.610]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.616]  [General] ERROR: usn_ddg_kidd: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.616]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_ddg_kidd  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.617]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.647]  [General] ERROR: usn_ffg_oliver_hazard_perry_longhull: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.647]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_ffg_oliver_hazard_perry_longhull  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.647]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.660]  [General] ERROR: civ_ms_ritina: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.661]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type civ_ms_ritina  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.661]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.670]  [General] ERROR: civ_ms_ritina: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.670]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type civ_ms_ritina  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.670]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.685]  [General] ERROR: civ_ms_ritina: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.685]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type civ_ms_ritina  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.685]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.725]  [General] ERROR: ir_ffg_alvand: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.725]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_ffg_alvand  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.725]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.737]  [General] ERROR: ir_ptg_combattante_II: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.739]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_ptg_combattante_II  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.739]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.749]  [General] ERROR: ir_ptg_combattante_II: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.749]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_ptg_combattante_II  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.749]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.762]  [General] ERROR: ir_fab_boghammar: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.762]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_fab_boghammar  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.762]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.802]  [General] ERROR: ir_fab_boghammar: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.803]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_fab_boghammar  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+  [13-10-2026 15:34:55.803]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line 2702)  
+  [13-10-2026 15:34:55.812]  [General] ERROR: ir_fab_boghammar: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line 1433)  
+  [13-10-2026 15:34:55.813]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_fab_boghammar  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line 472)  
+
+## ERROR summary (counts by message, numbers replaced by N)
+38312   [N-N-N N:N:N.N]  [General] ERROR: Could not find a part of the path "C:\Program Files (xN)\Steam\steamapps\common\Sea Power\Sea Power_Data\StreamingAssets\user\terrain\data\chunk_N_N.dat". while parsing Ini File C:/Pro
+  18   [N-N-N N:N:N.N]  [General] ERROR: ObjectBaseLoader is unable to load resources root ''! Object will not be loaded  in ObjectBaseLoader.cs: BuildModelHierarchy (line N)  
+   4   [N-N-N N:N:N.N]  [General] ERROR: ir_fab_boghammar: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   4   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_fab_boghammar  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N) 
+   3   [N-N-N N:N:N.N]  [General] ERROR: civ_ms_ritina: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   3   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type civ_ms_ritina  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: usaf_f-Ne: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: ir_ptg_combattante_II: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: Could not load clouds shadow texture 'UNDEFINED' in clouds.ini  in CloudParameters.cs: .ctor (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: Could not load clouds distribution texture 'UNDEFINED' in clouds.ini  in CloudParameters.cs: .ctor (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usaf_f-Ne  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_ptg_combattante_II  in ObjectBaseParameters.cs: LoadFromSimpleParameters (lin
+   2   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type all_life_raft  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+   2   [N-N-N N:N:N.N]  [General] ERROR: all_life_raft: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: wp_silkworm_launcher: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: usn_ffg_oliver_hazard_perry_longhull: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: usn_ddg_kidd: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: usn_cg_belknap: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Loading Plotting Table has encountered an error: 'System.ArgumentException: Cannot find Type null for type hash N. Ensure your runtime depends on all assemblies defining the Component 
+   1   [N-N-N N:N:N.N]  [General] ERROR: ir_ffg_alvand: Unknown or missing unit role: ''  in ObjectBaseLoader.cs: InitializeSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type wp_silkworm_launcher  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line
+   1   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_ffg_oliver_hazard_perry_longhull  in ObjectBaseParameters.cs: LoadFromSimple
+   1   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_ddg_kidd  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type usn_cg_belknap  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+   1   [N-N-N N:N:N.N]  [General] ERROR: Attempted to add unit from variant Default which does not exist among valid variant names for unit type ir_ffg_alvand  in ObjectBaseParameters.cs: LoadFromSimpleParameters (line N)  
+
+## Totals
+Errors with paths under StreamingAssets\user: 38312
+'Unknown or missing unit role' errors: 18
