@@ -1,0 +1,29 @@
+{
+  "cli_version": "0.11.5-nightly.202610090628.b4d2443bf.0.20261009153626-ffa47e294271",
+  "checkpoint_id": "01M4TWCDNJ70G8FZ94E61X0RCM",
+  "strategy": "manual-commit",
+  "checkpoints_count": 1,
+  "files_touched": null,
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  },
+  "linked_commits": [
+    {
+      "sha": "1be01c94c0e56c45e68cc2bb9594ad28c883f3d9",
+      "repo": "gh/Soph/sea-power-crossover-fix"
+    }
+  ]
+}
